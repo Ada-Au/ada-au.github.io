@@ -6,7 +6,6 @@
     <title>Unity WebGL Player | afcd</title>
   </head>
   <body style="text-align: center">
-test
     <canvas id="unity-canvas" width=960 height=600 style="width: 960px; height: 600px; background: url('Build/game.jpg') center / cover"></canvas>
     <script src="Build/game.loader.js"></script>
     <script>
@@ -19,9 +18,9 @@ test
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/game.data.unityweb",
-        frameworkUrl: "Build/game.framework.js.unityweb",
-        codeUrl: "Build/game.wasm.unityweb",
+        dataUrl: "Build/game.data.br",
+        frameworkUrl: "Build/game.framework.js.br",
+        codeUrl: "Build/game.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AdaAu",
         productName: "afcd",
